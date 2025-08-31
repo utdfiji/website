@@ -9,6 +9,15 @@ import Section from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Recruitment',
+  description: 'Recruitment for the Tau Delta chaper of Phi Gamma Delta.',
+  openGraph: {
+    title: 'Recruitment',
+    description: 'Recruitment for the Tau Delta chaper of Phi Gamma Delta.',
+    url: '/recruitment',
+  },
+  alternates: {
+    canonical: '/recruitment',
+  },
 };
 
 export default function Recruitment() {

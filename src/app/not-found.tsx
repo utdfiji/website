@@ -6,6 +6,15 @@ import Page from '@/components/Page';
 
 export const metadata: Metadata = {
   title: '404',
+  description: 'Not found in the Tau Delta chaper of Phi Gamma Delta website.',
+  openGraph: {
+    title: '404',
+    description: 'Not found in the Tau Delta chaper of Phi Gamma Delta website.',
+    url: '/404',
+  },
+  alternates: {
+    canonical: '/404',
+  },
 };
 
 export default function NotFound() {

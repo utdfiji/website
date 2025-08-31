@@ -11,6 +11,15 @@ import Section from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Philanthropy',
+  description: 'Philanthropy for the Tau Delta chaper of Phi Gamma Delta.',
+  openGraph: {
+    title: 'Philanthropy',
+    description: 'Philanthropy for the Tau Delta chaper of Phi Gamma Delta.',
+    url: '/philanthropy',
+  },
+  alternates: {
+    canonical: '/philanthropy',
+  },
 };
 
 export default function Philanthropy() {
