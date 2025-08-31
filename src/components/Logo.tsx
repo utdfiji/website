@@ -9,8 +9,8 @@ export default function Logo() {
     <Link href="/" className="flex gap-2 mr-auto">
       <Image src={Diamond} alt="" width={40} height={40} className="h-12 w-auto" />
       <div className="font-display flex flex-col">
-        <h1 className="text-xl">Phi Gamma Delta</h1>
-        <h2 className="text-md">Tau Delta Chapter</h2>
+        <p className="text-xl">Phi Gamma Delta</p>
+        <p className="text-md">Tau Delta Chapter</p>
       </div>
     </Link>
   );
