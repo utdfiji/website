@@ -1,12 +1,13 @@
 import React from 'react';
 
-import Diamond from '@/../public/diamond.png';
+import Diamond from '@/../public/headers/pig-dinner.jpg';
 import Page from '@/components/Page';
+import Section from '@/components/Section';
 
-export default function Home() {
+export default function Recruitment() {
   return (
     <Page title="Recruitment" image={Diamond}>
-      <section className="w-full flex flex-col gap-4 px-8 md:px-32 xl:px-64 my-16">
+      <Section className="flex flex-col gap-4">
         <p>
           To be a member of Phi Gamma Delta is to become a Brother for Life. We at the Tau Delta
           Chapter of Phi Gamma Delta take great pride and put forth a tireless effort to discover,
@@ -24,7 +25,7 @@ export default function Home() {
           efforts on discovering new friends who we believe will not only enrich our fraternity but
           who will also benefit from becoming a Brother.
         </p>
-      </section>
+      </Section>
     </Page>
   );
 }

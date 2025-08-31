@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Diamond from '@/../public/diamond.png';
+import CarBash from '@/../public/headers/utd.jpg';
 import Page from '@/components/Page';
+import Section from '@/components/Section';
 
 const missionVision = [
   {
@@ -46,16 +47,16 @@ const values = [
 
 export default function Home() {
   return (
-    <Page title="Phi Gamma Delta" subtitle="Tau Delta Chapter" fontSize="large" image={Diamond}>
-      <section className="w-full flex flex-wrap gap-4 justify-evenly px-8 md:px-32 xl:px-64 my-16">
+    <Page title="Phi Gamma Delta" subtitle="Tau Delta Chapter" fontSize="large" image={CarBash}>
+      <Section className="flex flex-wrap gap-4 justify-evenly">
         {missionVision.map((item) => (
           <div key={item.title} className="max-w-64 text-center">
             <h3 className="font-display text-2xl font-bold text-yellow">{item.title}</h3>
             <p>{item.content}</p>
           </div>
         ))}
-      </section>
-      <section className="w-full flex flex-wrap gap-4 justify-evenly px-8 md:px-32 xl:px-64 my-16">
+      </Section>
+      <Section className="flex flex-wrap gap-4 justify-evenly">
         {values.map((item) => (
           <div key={item.title} className="max-w-64 text-center">
             <h3 className="font-display text-2xl text-yellow">
@@ -65,7 +66,7 @@ export default function Home() {
             <p>{item.content}</p>
           </div>
         ))}
-      </section>
+      </Section>
     </Page>
   );
 }

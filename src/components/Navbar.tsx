@@ -8,6 +8,14 @@ const links = [
     title: 'Recruitment',
     href: '/recruitment',
   },
+  {
+    title: 'Philanthropy',
+    href: '/philanthropy',
+  },
+  {
+    title: 'Graduate Site',
+    href: 'https://fiji-tau-delta-chapter.square.site/',
+  },
 ];
 
 export default function Navbar() {
