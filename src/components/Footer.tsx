@@ -5,55 +5,43 @@ import Logo from './Logo';
 
 const groups = [
   {
-    name: 'Site',
+    title: 'Site',
     links: [
       {
-        name: 'Test',
-        href: '/',
-      },
-      {
-        name: 'Test2',
-        href: '/',
-      },
-      {
-        name: 'Test3',
-        href: '/',
-      },
-      {
-        name: 'Test4',
-        href: '/',
+        title: 'Recruitment',
+        href: '/recruitment',
       },
     ],
   },
   {
-    name: 'External',
+    title: 'External',
     links: [
       {
-        name: 'National Fraternity',
+        title: 'National Fraternity',
         href: 'https://phigam.org/',
       },
       {
-        name: 'Instagram',
+        title: 'Instagram',
         href: 'https://www.instagram.com/utdfiji/',
       },
       {
-        name: 'LinkedIn',
+        title: 'LinkedIn',
         href: 'https://www.linkedin.com/company/phigammadelta-taudelta/',
       },
       {
-        name: 'Rush Form',
+        title: 'Rush Form',
         href: 'http://bit.ly/rushutdfiji',
       },
       {
-        name: 'Graduate Site',
+        title: 'Graduate Site',
         href: 'https://fiji-tau-delta-chapter.square.site/',
       },
       {
-        name: 'Graduate Network',
+        title: 'Graduate Network',
         href: 'https://www.linkedin.com/groups/12942338/',
       },
       {
-        name: 'UTD FSL',
+        title: 'UTD FSL',
         href: 'https://gogreek.utdallas.edu/',
       },
     ],
@@ -66,15 +54,15 @@ export default function Footer() {
       <Logo />
       <div className="grid grid-cols-2 gap-10">
         {groups.map((group) => (
-          <div key={group.name} className="flex flex-col items-start gap-3">
-            <h3 className="text-xl font-semibold mb-4">{group.name}</h3>
+          <div key={group.title} className="flex flex-col items-start gap-3">
+            <h3 className="text-xl font-semibold mb-4">{group.title}</h3>
             {group.links.map((link) => (
               <Link
-                key={link.name}
+                key={link.title}
                 className="underline decoration-transparent hover:decoration-inherit transition"
                 href={link.href}
               >
-                {link.name}
+                {link.title}
               </Link>
             ))}
           </div>

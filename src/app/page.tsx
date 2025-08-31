@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import React from 'react';
 
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
+import Diamond from '@/../public/diamond.png';
+import Page from '@/components/Page';
 
 const missionVision = [
   {
@@ -47,14 +46,8 @@ const values = [
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <section className="relative w-full h-[50vh] flex flex-col items-center justify-center font-display text-white">
-        <Image src="/diamond.png" alt="" fill className="object-cover -z-30" />
-        <h1 className="text-8xl [text-shadow:_0_0_16px_rgb(0_0_0_/_0.4)]">Phi Gamma Delta</h1>
-        <h2 className="text-4xl [text-shadow:_0_0_16px_rgb(0_0_0_/_0.4)]">Tau Delta Chapter</h2>
-      </section>
-      <section className="w-full flex flex-wrap gap-4 justify-evenly xl:pt-32 px-8 md:px-32 xl:px-64 my-16">
+    <Page title="Phi Gamma Delta" subtitle="Tau Delta Chapter" fontSize="large" image={Diamond}>
+      <section className="w-full flex flex-wrap gap-4 justify-evenly px-8 md:px-32 xl:px-64 my-16">
         {missionVision.map((item) => (
           <div key={item.title} className="max-w-64 text-center">
             <h3 className="font-display text-2xl font-bold text-yellow">{item.title}</h3>
@@ -62,7 +55,7 @@ export default function Home() {
           </div>
         ))}
       </section>
-      <section className="w-full flex flex-wrap gap-4 justify-evenly xl:pt-32 px-8 md:px-32 xl:px-64 my-16">
+      <section className="w-full flex flex-wrap gap-4 justify-evenly px-8 md:px-32 xl:px-64 my-16">
         {values.map((item) => (
           <div key={item.title} className="max-w-64 text-center">
             <h3 className="font-display text-2xl text-yellow">
@@ -73,7 +66,6 @@ export default function Home() {
           </div>
         ))}
       </section>
-      <Footer />
-    </main>
+    </Page>
   );
 }

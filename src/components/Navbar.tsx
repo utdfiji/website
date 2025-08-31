@@ -5,20 +5,8 @@ import Logo from './Logo';
 
 const links = [
   {
-    name: 'Test',
-    href: '/',
-  },
-  {
-    name: 'Test2',
-    href: '/',
-  },
-  {
-    name: 'Test3',
-    href: '/',
-  },
-  {
-    name: 'Test4',
-    href: '/',
+    title: 'Recruitment',
+    href: '/recruitment',
   },
 ];
 
@@ -29,11 +17,11 @@ export default function Navbar() {
       <div className="flex flex-wrap gap-6">
         {links.map((link) => (
           <Link
-            key={link.name}
+            key={link.title}
             href={link.href}
             className="font-bold underline decoration-transparent hover:decoration-inherit transition"
           >
-            {link.name}
+            {link.title}
           </Link>
         ))}
       </div>
