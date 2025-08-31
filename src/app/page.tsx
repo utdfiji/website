@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CarBash from '@/../public/headers/utd.jpg';
+import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
 
@@ -66,6 +67,9 @@ export default function Home() {
             <p>{item.content}</p>
           </div>
         ))}
+      </Section>
+      <Section className="flex flex-col gap-4 items-center">
+        <Instagram />
       </Section>
     </Page>
   );

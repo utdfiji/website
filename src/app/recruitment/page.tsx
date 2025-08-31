@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 import Diamond from '@/../public/headers/pig-dinner.jpg';
+import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
 
@@ -31,6 +32,24 @@ export default function Recruitment() {
           efforts on discovering new friends who we believe will not only enrich our fraternity but
           who will also benefit from becoming a Brother.
         </p>
+      </Section>
+      <Section className="flex flex-col gap-4 items-center">
+        <h3>
+          Our{' '}
+          <Link href="http://bit.ly/rushutdfiji" className="font-bold underline">
+            Rush Form
+          </Link>{' '}
+          is the best way for us to stay in contact with you at the starts of semesters.
+        </h3>
+      </Section>
+      <Section className="flex flex-col gap-4 items-center">
+        <h3>
+          For up to date information, please visit our{' '}
+          <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
+            Instagram
+          </Link>
+        </h3>
+        <Instagram />
       </Section>
     </Page>
   );
