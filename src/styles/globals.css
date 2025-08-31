@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+/*If changing be sure to update in layout.tsx too*/
+@theme {
+  --color-purple: #500878;
+  --color-dark-grey: #454545;
+  --color-medium-grey: #786d6e;
+  --color-yellow: #dba900;
+
+  --font-display: var(--font-display);
+  --font-main: var(--font-main);
+}
