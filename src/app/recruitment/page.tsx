@@ -1,8 +1,14 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
 import React from 'react';
 
 import Diamond from '@/../public/headers/pig-dinner.jpg';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+
+export const metadata: Metadata = {
+  title: 'Recruitment',
+};
 
 export default function Recruitment() {
   return (

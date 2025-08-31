@@ -1,9 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
 
 import Grads from '@/../public/headers/grads.jpg';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+
+export const metadata: Metadata = {
+  title: 'Contact',
+};
 
 const links = [
   {
@@ -20,7 +25,7 @@ const links = [
   },
 ];
 
-export default function Philanthropy() {
+export default function Contact() {
   return (
     <Page title="Contact Us" image={Grads}>
       <Section className="flex flex-col gap-8 items-center">
