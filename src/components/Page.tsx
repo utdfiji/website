@@ -1,22 +1,18 @@
-import type { StaticImageData } from 'next/image';
 import React from 'react';
 
 import Footer from '@/components/Footer';
-import Header from '@/components/Header';
+import Header, { type HeaderProps } from '@/components/Header';
 import Navbar from '@/components/Navbar';
 
 interface Props {
-  title: string;
-  subtitle?: string;
-  fontSize: 'regular' | 'large';
-  image: StaticImageData;
+  header: HeaderProps;
 }
 
 export default function Page(props: React.PropsWithChildren<Props>) {
   return (
     <>
       <Navbar />
-      <Header {...props} />
+      <Header {...props.header} />
       <main>{props.children}</main>
       <Footer />
     </>

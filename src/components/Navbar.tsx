@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-purple text-white flex flex-wrap gap-2 items-center p-2 pr-6">
       <Logo />
-      <div className="flex flex-wrap gap-6">
+      <div className="flex flex-wrap gap-x-6 gap-y-1">
         {links.map((link) => (
           <Link
             key={link.title}

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 import Crest from '@/../public/crest.png';
-import CarBash from '@/../public/headers/utd.jpg';
+import UTD from '@/../public/headers/utd.jpg';
 import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
@@ -70,17 +70,26 @@ const values = [
 
 export default function Home() {
   return (
-    <Page title="Phi Gamma Delta" subtitle="Tau Delta Chapter" fontSize="large" image={CarBash}>
-      <Section className="flex gap-8 items-center">
-        <Image src={Crest} alt="Crest" width={100} height={100} className="min-h-64 w-auto" />
-        <div className="flex flex-col gap-4">
+    <Page
+      header={{
+        pretitle: 'FIJI',
+        title: 'Phi Gamma Delta',
+        subtitle: 'Tau Delta Chapter',
+        fontSize: 'large',
+        image: UTD,
+        alt: 'Drone shot of UT Dallas',
+      }}
+    >
+      <Section className="flex flex-wrap gap-8 items-center justify-center">
+        <Image src={Crest} alt="Crest" width={159} height={256} className="h-64 w-auto" />
+        <div className="flex flex-col gap-4 max-w-128">
           <p>
             Phi Gamma Delta (FIJI), founded in 1848, is a social fraternity with more than 144
             active chapters and 10 colonies across the United States and Canada.
           </p>
           <p>
             The Tau Delta chapter of FIJI was chartered in 2012 at The University of Texas at
-            Dallas.
+            Dallas. Since then it has welcomed over 200 brothers into its midst.
           </p>
         </div>
       </Section>

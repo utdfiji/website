@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
 
-import Diamond from '@/../public/headers/pig-dinner.jpg';
+import PigDinner from '@/../public/headers/pig-dinner.jpg';
 import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
@@ -13,7 +13,13 @@ export const metadata: Metadata = {
 
 export default function Recruitment() {
   return (
-    <Page title="Recruitment" image={Diamond}>
+    <Page
+      header={{
+        title: 'Recruitment',
+        image: PigDinner,
+        alt: 'Group photo at Pig Dinner',
+      }}
+    >
       <Section className="flex flex-col gap-4">
         <p>
           To be a member of Phi Gamma Delta is to become a Brother for Life. We at the Tau Delta

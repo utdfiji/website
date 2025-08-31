@@ -58,7 +58,7 @@ const groups = [
 
 export default function Footer() {
   return (
-    <footer className="bg-purple text-white w-full h-screen pb-10 md:px-40 px-8 pt-16 sm:pt-28 flex flex-col justify-between">
+    <footer className="bg-purple text-white w-full min-h-screen pb-10 md:px-40 px-8 pt-16 sm:pt-28 flex flex-col gap-8 justify-between">
       <Logo />
       <div className="grid grid-cols-2 gap-10">
         {groups.map((group) => (

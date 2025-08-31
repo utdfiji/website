@@ -27,7 +27,13 @@ const links = [
 
 export default function Contact() {
   return (
-    <Page title="Contact Us" image={Grads}>
+    <Page
+      header={{
+        title: 'Contact Us',
+        image: Grads,
+        alt: 'Group photo of graduate and undergraduate brothers',
+      }}
+    >
       <Section className="flex flex-col gap-8 items-center">
         <h3 className="text-xl">
           Instagram is the best place to stay up to date with our latest updates and events.

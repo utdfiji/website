@@ -4,11 +4,10 @@ import Link from 'next/link';
 import React from 'react';
 
 import CarBash from '@/../public/headers/car-bash.jpg';
+import BackBeforeAfter from '@/../public/philanthropy/back-before-after.jpg';
+import FrontBeforeAfter from '@/../public/philanthropy/front-before-after.jpg';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
-
-import BackBeforeAfter from './back-before-after.jpg';
-import FrontBeforeAfter from './front-before-after.jpg';
 
 export const metadata: Metadata = {
   title: 'Philanthropy',
@@ -16,7 +15,13 @@ export const metadata: Metadata = {
 
 export default function Philanthropy() {
   return (
-    <Page title="Philanthropy" image={CarBash}>
+    <Page
+      header={{
+        title: 'Philanthropy',
+        image: CarBash,
+        alt: 'The Car Bash setup at the Chess Plaza',
+      }}
+    >
       <Section className="flex flex-col gap-4">
         <p>
           Philanthropy is an important part of how we&apos;re able to give back to our community. In
@@ -38,22 +43,23 @@ export default function Philanthropy() {
           alt="Front of the car before and after Car Bash"
           width={400}
           height={400}
-          className="min-h-128 w-auto"
+          className="min-w-64 w-auto max-w-full"
         />
         <Image
           src={BackBeforeAfter}
           alt="Back of the car before and after Car Bash"
           width={400}
           height={400}
-          className="min-h-128 w-auto"
+          className="min-w-64 w-auto max-w-full"
         />
       </Section>
       <Section className="flex flex-col gap-4 items-center">
         <h3 className="text-xl">
           Look out for the next Car Bash on our{' '}
           <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
-            Instagram.
+            Instagram
           </Link>
+          .
         </h3>
       </Section>
     </Page>
