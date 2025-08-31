@@ -15,6 +15,10 @@ const groups = [
         title: 'Philanthropy',
         href: '/philanthropy',
       },
+      {
+        title: 'Contact',
+        href: '/contact',
+      },
     ],
   },
   {

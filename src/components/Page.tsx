@@ -1,4 +1,4 @@
-import Image, { type StaticImageData } from 'next/image';
+import type { StaticImageData } from 'next/image';
 import React from 'react';
 
 import Footer from '@/components/Footer';

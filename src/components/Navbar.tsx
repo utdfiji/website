@@ -16,6 +16,10 @@ const links = [
     title: 'Graduate Site',
     href: 'https://fiji-tau-delta-chapter.square.site/',
   },
+  {
+    title: 'Contact',
+    href: '/contact',
+  },
 ];
 
 export default function Navbar() {
