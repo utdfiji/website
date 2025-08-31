@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
   return (
     <>
-      <h1 className="font-display">FIJI</h1>
+      <Navbar />
+      <h1 className="font-display">Phi</h1>
       <p className="">FIJI</p>
+      <Footer />
     </>
   );
 }
