@@ -42,6 +42,13 @@ export default function Contact() {
               {link.title}
             </Link>
           ))}
+          <p>
+            Phi Gamma Delta
+            <br />
+            800 W. Campbell Road, SU 1.610
+            <br />
+            Richardson, TX 75080
+          </p>
         </div>
       </Section>
     </Page>

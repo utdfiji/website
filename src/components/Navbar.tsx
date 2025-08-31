@@ -31,6 +31,7 @@ export default function Navbar() {
           <Link
             key={link.title}
             href={link.href}
+            target={link.href.startsWith('http') ? '_blank' : '_self'}
             className="font-bold underline decoration-transparent hover:decoration-inherit transition"
           >
             {link.title}

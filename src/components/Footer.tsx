@@ -67,8 +67,9 @@ export default function Footer() {
             {group.links.map((link) => (
               <Link
                 key={link.title}
-                className="underline decoration-transparent hover:decoration-inherit transition"
                 href={link.href}
+                target={link.href.startsWith('http') ? '_blank' : '_self'}
+                className="underline decoration-transparent hover:decoration-inherit transition"
               >
                 {link.title}
               </Link>

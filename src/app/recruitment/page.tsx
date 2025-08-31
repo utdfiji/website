@@ -34,7 +34,7 @@ export default function Recruitment() {
         </p>
       </Section>
       <Section className="flex flex-col gap-4 items-center">
-        <h3>
+        <h3 className="text-xl">
           Our{' '}
           <Link href="http://bit.ly/rushutdfiji" className="font-bold underline">
             Rush Form
@@ -46,7 +46,7 @@ export default function Recruitment() {
         <h3>
           For up to date information, please visit our{' '}
           <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
-            Instagram
+            Instagram.
           </Link>
         </h3>
         <Instagram />
