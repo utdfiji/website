@@ -58,13 +58,13 @@ export const metadata: Metadata = {
     template: '%s - UTD FIJI',
     default: 'UTD FIJI',
   },
-  description: 'The Tau Delta chapter of Phi Gamma Delta (FIJI).',
+  description: 'The UT Dallas chapter of Phi Gamma Delta (FIJI).',
   openGraph: {
     title: {
       template: '%s - UTD FIJI',
       default: 'UTD FIJI',
     },
-    description: 'The Tau Delta chapter of Phi Gamma Delta (FIJI).',
+    description: 'The UT Dallas chapter of Phi Gamma Delta (FIJI).',
     url: '/',
     type: 'website',
   },
