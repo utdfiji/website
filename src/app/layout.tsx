@@ -85,7 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       {process.env.NEXT_PUBLIC_VERCEL_ENV === 'production' && (
-        <GoogleAnalytics gaId="G-XXXXXXXXXX" />
+        <GoogleAnalytics gaId="G-3GD1RLTFS8" />
       )}
       <body className={`${centuryGothic.variable} font-main ${belwe.variable}`}>{children}</body>
     </html>
