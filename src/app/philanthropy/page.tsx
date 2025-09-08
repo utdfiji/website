@@ -11,10 +11,10 @@ import Section from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Philanthropy',
-  description: 'Philanthropy for the Tau Delta chaper of Phi Gamma Delta (FIJI).',
+  description: 'Philanthropy for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
   openGraph: {
     title: 'Philanthropy',
-    description: 'Philanthropy for the Tau Delta chaper of Phi Gamma Delta (FIJI).',
+    description: 'Philanthropy for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
     url: '/philanthropy',
   },
   alternates: {
