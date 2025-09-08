@@ -8,10 +8,10 @@ import Section from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact the Tau Delta chaper of Phi Gamma Delta (FIJI).',
+  description: 'Contact the Tau Delta chapter of Phi Gamma Delta (FIJI).',
   openGraph: {
     title: 'Contact',
-    description: 'Contact the Tau Delta chaper of Phi Gamma Delta (FIJI).',
+    description: 'Contact the Tau Delta chapter of Phi Gamma Delta (FIJI).',
     url: '/contact',
   },
   alternates: {

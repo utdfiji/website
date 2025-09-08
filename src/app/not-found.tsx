@@ -6,10 +6,10 @@ import Page from '@/components/Page';
 
 export const metadata: Metadata = {
   title: '404',
-  description: 'Not found in the Tau Delta chaper of Phi Gamma Delta (FIJI) website.',
+  description: 'Not found in the Tau Delta chapter of Phi Gamma Delta (FIJI) website.',
   openGraph: {
     title: '404',
-    description: 'Not found in the Tau Delta chaper of Phi Gamma Delta (FIJI) website.',
+    description: 'Not found in the Tau Delta chapter of Phi Gamma Delta (FIJI) website.',
     url: '/404',
   },
   alternates: {
