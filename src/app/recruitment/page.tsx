@@ -51,7 +51,7 @@ export default function Recruitment() {
       <Section className="flex flex-col gap-4 items-center">
         <h3 className="text-xl">
           Our{' '}
-          <Link href="http://bit.ly/rushutdfiji" className="font-bold underline">
+          <Link href="http://bit.ly/rushutdfiji" target="_blank" className="font-bold underline">
             Rush Form
           </Link>{' '}
           is the best way for us to stay in contact with you at the starts of semesters.
@@ -60,7 +60,11 @@ export default function Recruitment() {
       <Section className="flex flex-col gap-4 items-center">
         <h3>
           For up to date information, please visit our{' '}
-          <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
+          <Link
+            href="https://www.instagram.com/utdfiji/"
+            target="_blank"
+            className="font-bold underline"
+          >
             Instagram.
           </Link>
         </h3>

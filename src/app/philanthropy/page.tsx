@@ -39,7 +39,7 @@ export default function Philanthropy() {
           day-long event where FIJI brings a car onto the UT Dallas campus and hundreds of passerby
           are allowed to smash, bash, and destroy the car with anything from a sledge hammer to a
           crowbar. Car Bash raises money in support of the{' '}
-          <Link href="https://www.redcross.org/" className="font-bold underline">
+          <Link href="https://www.redcross.org/" target="_blank" className="font-bold underline">
             American Red Cross
           </Link>{' '}
           who provide emergency assistance, disaster relief, and disaster preparedness education in
@@ -65,7 +65,11 @@ export default function Philanthropy() {
       <Section className="flex flex-col gap-4 items-center">
         <h3 className="text-xl">
           Look out for the next Car Bash on our{' '}
-          <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
+          <Link
+            href="https://www.instagram.com/utdfiji/"
+            target="_blank"
+            className="font-bold underline"
+          >
             Instagram
           </Link>
           .
