@@ -7,11 +7,11 @@ import Page from '@/components/Page';
 import Section from '@/components/Section';
 
 export const metadata: Metadata = {
-  title: 'Parents',
-  description: 'Parents Page for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
+  title: 'Parents & Guardians',
+  description: 'Parents & Guardians Page for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
   openGraph: {
-    title: 'Parents',
-    description: 'Parents Page for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
+    title: 'Parents & Guardians',
+    description: 'Parents & Guardians Page for the UT Dallas chapter of Phi Gamma Delta (FIJI).',
     url: '/parents',
   },
   alternates: {
@@ -23,7 +23,7 @@ export default function Recruitment() {
   return (
     <Page
       header={{
-        title: 'Parents',
+        title: 'Parents & Guardians',
         image: PigDinner,
         alt: '',
       }}
