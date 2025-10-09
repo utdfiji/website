@@ -49,17 +49,17 @@ export default function Recruitment() {
             Interfraternity Council
           </Link>{' '}
           (IFC) at UT Dallas. FSL and IFC serve as the governing bodies for our fraternity as well
-          the other IFC fraternities, providing representation, community building, and
+          as the other IFC fraternities, providing representation, community building, and
           accountability.
         </p>
         <p>
-          Phi Gamma Delta is committed to the elimination and prevention of hazing. We follow a new
-          model to Build Courageous Leaders in which new brothers are initiated within 4 days of
-          accepting an invitation to join and are henceforth brothers in every aspect. Built to Lead
-          programming and a multilevel member development experience begins on the first day of
-          affiliation and extends throughout the undergraduate experience. The program helps
-          brothers build and strengthen the skills necessary to lead with courage. More information
-          is available on our national website. Please see{' '}
+          Phi Gamma Delta is committed to the prevention of hazing. We follow a new model to Build
+          Courageous Leaders in which new brothers are initiated within 4 days of accepting an
+          invitation to join and are henceforth brothers in every aspect. Built to Lead programming
+          and a multilevel member development experience begin on the first day of affiliation and
+          extend throughout the undergraduate experience. The program helps brothers build and
+          strengthen the skills necessary to lead with courage. More information is available on our
+          national website. Please see{' '}
           <Link href="https://phigam.org/undergraduates/hazing-prevention/" className="underline">
             Hazing Prevention & Elimination
           </Link>{' '}
@@ -72,7 +72,7 @@ export default function Recruitment() {
         <p>
           UT Dallas is not like what you may see on TV. We are a commuter school where a large
           portion of students go home immediately after class. Finding a community for many means
-          joining greek life and for those select few, that means Phi Gamma Delta.
+          joining Greek life, and for those select few, that means Phi Gamma Delta.
         </p>
       </Section>
       <Section className="flex flex-col gap-4 items-center">
