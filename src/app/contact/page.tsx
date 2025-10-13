@@ -30,7 +30,7 @@ const links = [
   },
   {
     title: 'Email',
-    href: 'utdfiji.president@gmail.com',
+    href: 'mailto:utdfiji.president@gmail.com',
   },
 ];
 
@@ -47,13 +47,22 @@ export default function Contact() {
         <h3 className="text-xl">
           Instagram is the best place to stay up to date with our latest updates and events.
         </h3>
-        <Link href="https://www.instagram.com/utdfiji/" className="text-2xl font-bold underline">
+        <Link
+          href="https://www.instagram.com/utdfiji/"
+          target="_blank"
+          className="text-2xl font-bold underline"
+        >
           Instagram
         </Link>
         <div className="flex flex-col gap-4 items-center">
           <h4 className="text-xl">You can also find us here:</h4>
           {links.map((link) => (
-            <Link key={link.title} href={link.href} className="text-lg font-bold underline">
+            <Link
+              key={link.title}
+              href={link.href}
+              target="_blank"
+              className="text-lg font-bold underline"
+            >
               {link.title}
             </Link>
           ))}
