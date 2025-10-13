@@ -17,6 +17,10 @@ const links = [
     href: 'https://fiji-tau-delta-chapter.square.site/',
   },
   {
+    title: 'Parents',
+    href: '/parents',
+  },
+  {
     title: 'Contact',
     href: '/contact',
   },
