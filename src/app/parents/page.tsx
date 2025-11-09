@@ -1,10 +1,9 @@
+import FamilyDay from '@/../public/headers/family-day.jpg';
+import Page from '@/components/Page';
+import Section from '@/components/Section';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
-
-import PigDinner from '@/../public/headers/pig-dinner.jpg';
-import Page from '@/components/Page';
-import Section from '@/components/Section';
 
 export const metadata: Metadata = {
   title: 'Parents & Guardians',
@@ -24,7 +23,7 @@ export default function Recruitment() {
     <Page
       header={{
         title: 'Parents & Guardians',
-        image: PigDinner,
+        image: FamilyDay,
         alt: '',
       }}
     >
@@ -80,10 +79,6 @@ export default function Recruitment() {
           Please reach out via{' '}
           <Link href="mailto:utdfiji.president@gmail.com" className="font-bold underline">
             Email
-          </Link>{' '}
-          or on{' '}
-          <Link href="https://www.instagram.com/utdfiji/" className="font-bold underline">
-            Instagram
           </Link>{' '}
           with any questions or concerns.
         </h3>

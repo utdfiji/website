@@ -1,8 +1,7 @@
+import Diamond from '@/../public/diamond.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-
-import Diamond from '@/../public/diamond.png';
 
 export default function Logo() {
   return (

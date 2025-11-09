@@ -1,11 +1,10 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import React from 'react';
-
 import PigDinner from '@/../public/headers/pig-dinner.jpg';
 import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Recruitment',

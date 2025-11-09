@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import React from 'react';
-
 import Crest from '@/../public/crest.png';
 import UTD from '@/../public/headers/utd.jpg';
 import Instagram from '@/components/Instagram';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+import Image from 'next/image';
+import React from 'react';
 
 const missionVision = [
   {

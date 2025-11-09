@@ -1,8 +1,7 @@
-import type { Metadata } from 'next';
-import React from 'react';
-
 import UTD from '@/../public/headers/utd.jpg';
 import Page from '@/components/Page';
+import type { Metadata } from 'next';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: '404',
