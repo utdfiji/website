@@ -1,13 +1,12 @@
-import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-
 import CarBash from '@/../public/headers/car-bash.jpg';
 import BackBeforeAfter from '@/../public/philanthropy/back-before-after.jpg';
 import FrontBeforeAfter from '@/../public/philanthropy/front-before-after.jpg';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Philanthropy',

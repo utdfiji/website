@@ -1,10 +1,9 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import React from 'react';
-
 import Grads from '@/../public/headers/grads.jpg';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Contact',
