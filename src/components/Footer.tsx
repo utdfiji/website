@@ -44,8 +44,8 @@ const groups = [
         href: 'http://bit.ly/rushutdfiji',
       },
       {
-        title: 'Graduate Site',
-        href: 'https://fiji-tau-delta-chapter.square.site/',
+        title: 'Purchase',
+        href: '/tickets',
       },
       {
         title: 'Graduate Network',
