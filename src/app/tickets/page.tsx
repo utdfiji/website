@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 
 const offerings = [
   {
-    title: '1848 Club',
-    subtitle: 'Monthly Donation Subscription',
-    price: '$4/month',
+    title: 'Monthly Subscription',
+    subtitle: 'Support Tau Delta',
+    price: 'Starting at $2/month',
     description:
-      'Become a steward of the Tau Delta legacy. Members ensure the Royal Purple remains a standard of excellence, providing the financial backbone for undergraduate brothers to lead, learn, and grow.',
+      'Become a steward of the Tau Delta legacy. Choose a subscription tier that works for you and help ensure the Royal Purple remains a standard of excellence, providing the financial backbone for undergraduate brothers to lead, learn, and grow.',
     href: 'https://www.zeffy.com/en-US/ticketing/tau-delta-fiji-monthly-donation-subscription-1848-club',
     featured: true,
   },
@@ -65,13 +65,17 @@ export default function Tickets() {
 
               <div className="flex flex-col gap-4">
                 <div>
-                  <p className={`text-sm font-medium ${offering.featured ? 'text-yellow' : 'text-purple'}`}>
+                  <p
+                    className={`text-sm font-medium ${offering.featured ? 'text-yellow' : 'text-purple'}`}
+                  >
                     {offering.subtitle}
                   </p>
                   <h3 className="text-3xl font-bold font-display">{offering.title}</h3>
                 </div>
 
-                <p className={`text-4xl font-bold ${offering.featured ? 'text-white' : 'text-purple'}`}>
+                <p
+                  className={`text-4xl font-bold ${offering.featured ? 'text-white' : 'text-purple'}`}
+                >
                   {offering.price}
                 </p>
 
@@ -107,7 +111,11 @@ export default function Tickets() {
 
         <p className="text-sm text-medium-grey mt-8">
           Payments securely processed by{' '}
-          <Link href="https://www.zeffy.com" target="_blank" className="underline hover:text-purple">
+          <Link
+            href="https://www.zeffy.com"
+            target="_blank"
+            className="underline hover:text-purple"
+          >
             Zeffy
           </Link>{' '}
           - 100% goes to FIJI.
