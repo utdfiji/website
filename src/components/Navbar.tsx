@@ -12,8 +12,8 @@ const links = [
     href: '/philanthropy',
   },
   {
-    title: 'Graduate Site',
-    href: 'https://fiji-tau-delta-chapter.square.site/',
+    title: 'Purchase',
+    href: '/tickets',
   },
   {
     title: 'Parents',
