@@ -41,7 +41,7 @@ const groups = [
       },
       {
         title: 'Rush Form',
-        href: 'http://bit.ly/rushutdfiji',
+        href: 'https://www.instagram.com/utdfiji/',
       },
       {
         title: 'Purchase',
