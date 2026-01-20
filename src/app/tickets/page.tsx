@@ -22,7 +22,7 @@ const offerings = [
   {
     title: 'Monthly Subscription',
     subtitle: 'Support Tau Delta',
-    price: 'Starting at $2/month',
+    price: 'Starting at $5/month',
     description:
       'Become a steward of the Tau Delta legacy. Choose a subscription tier that works for you and help ensure the Royal Purple remains a standard of excellence, providing the financial backbone for undergraduate brothers to lead, learn, and grow.',
     href: 'https://www.zeffy.com/en-US/ticketing/tau-delta-fiji-monthly-donation-subscription-1848-club',
