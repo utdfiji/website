@@ -27,6 +27,17 @@ const offerings = [
       'Become a steward of the Tau Delta legacy. Choose a subscription tier that works for you and help ensure the Royal Purple remains a standard of excellence, providing the financial backbone for undergraduate brothers to lead, learn, and grow.',
     href: 'https://www.zeffy.com/en-US/ticketing/tau-delta-fiji-monthly-donation-subscription-1848-club',
     featured: true,
+    buttonText: 'Join Now',
+  },
+  {
+    title: '14th Annual Frank Norris Pig Dinner',
+    subtitle: 'Event Tickets',
+    price: 'Purchase Tickets',
+    description:
+      'Join us for the 14th Annual Frank Norris Pig Dinner, hosted by the Tau Delta Chapter of FIJI. Click here to purchase your tickets for this special event.',
+    href: 'https://www.zeffy.com/en-US/ticketing/14th-annual-frank-norris-pig-dinner',
+    featured: true,
+    buttonText: 'Purchase Tickets',
   },
 ];
 
@@ -88,7 +99,7 @@ export default function Tickets() {
                     offering.featured ? 'text-yellow' : 'text-purple'
                   }`}
                 >
-                  Join Now
+                  {offering.buttonText || 'Learn More'}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
