@@ -22,7 +22,14 @@ export default function ZeffyModalCard({
   featured = false,
 }: ZeffyModalCardProps) {
   const [open, setOpen] = useState(false);
+  const [iframeSrc, setIframeSrc] = useState<string | null>(null);
   const titleId = useId();
+
+  const openModal = () => {
+    const separator = formLink.includes('?') ? '&' : '?';
+    setIframeSrc(`${formLink}${separator}cachebust=${Date.now()}`);
+    setOpen(true);
+  };
 
   useEffect(() => {
     if (!open) return;
@@ -45,7 +52,7 @@ export default function ZeffyModalCard({
     <>
       <button
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={openModal}
         className={`group relative overflow-hidden rounded-2xl p-8 text-left transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl w-full cursor-pointer ${
           featured
             ? 'bg-gradient-to-br from-purple to-purple/80 text-white shadow-xl'
@@ -123,12 +130,14 @@ export default function ZeffyModalCard({
               </button>
             </div>
 
-            <iframe
-              title="Form powered and secured by Zeffy"
-              src={`${formLink}${formLink.includes('?') ? '&' : '?'}cachebust=${Date.now()}`}
-              className="h-full w-full flex-1 border-0 bg-white"
-              allow="payment"
-            />
+            {iframeSrc && (
+              <iframe
+                title="Form powered and secured by Zeffy"
+                src={iframeSrc}
+                className="h-full w-full flex-1 border-0 bg-white"
+                allow="payment"
+              />
+            )}
           </div>
         </div>
       )}
